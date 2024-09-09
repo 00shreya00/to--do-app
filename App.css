@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.App.dark {
+  background-color: #333;
+  color: #f0f4f8;
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="text"], input[type="date"], input[type="time"], select {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #004080;
+}
+
+.filters button {
+  background-color: #28a745;
+}
+
+.filters button:hover {
+  background-color: #218838;
+}
+
+.filters button:active {
+  background-color: #1e7e34;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+li:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.01);
+}
+
+li span {
+  flex: 1;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer span {
+  font-size: 16px;
+  color: #666;
+}
+
+.dark-mode-toggle {
+  margin-top: 20px;
+  background-color: #333;
+  color: #f0f4f8;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #444;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+  max-width: 400px;
+  width: 100%;
+}
+
+.popup-content h2 {
+  margin-top: 0;
+}
+
+.progress {
+  margin-top: 20px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #28a745;
+}
+
+.edit-buttons input[type="text"], .edit-buttons input[type="date"], .edit-buttons select {
+  margin: 5px;
+}
+
+.edit-buttons button {
+  background-color: #ffc107;
+}
+
+.edit-buttons button:hover {
+  background-color: #e0a800;
+}
+
+.edit-buttons button:active {
+  background-color: #c69500;
+}
+
+.clock, .alarm {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}
